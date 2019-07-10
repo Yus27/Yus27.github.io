@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>GeoReader</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">GeoReader </div>
+      <div class="list-group list-group-flush">
+          <a href="index.html" class="list-group-item list-group-item-action">О программе</a>
+          <a href="possibilities.html" class="list-group-item list-group-item-action active">Возможности</a>
+          <a href="screenshots.html" class="list-group-item list-group-item-action">Скриншоты</a>
+          <a href="request.html" class="list-group-item list-group-item-action">Запрос цены</a>
+          <a href="publications.html" class="list-group-item list-group-item-action">Публикации</a>
+          <a href="contact.html" class="list-group-item list-group-item-action">Контакты</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <button class="btn btn-primary" id="menu-toggle">Меню</button>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div> -->
+      </nav>
+
+      <div class="container-fluid">
+        <h1 class="mt-4">Возможности GeoReader</h1>
+        <ul>
+            <li>Импорт исходных данных из формата TXT программы Крот (для георадаров серии ЛОЗА), GPR и GPR2 (для георадаров серии ОКО-2), DZT (для георадаров GSSI), RD3 (для георадаров MALA), DT1 (для георадаров Sensors & Software), TRZ (для георадаров TerraZond)</li>
+            <li>Предварительная обработка радарограмм, фильтрация</li>
+            <li>Добавление элементов (точек, отрезков, полилиний, гипербол)</li>
+            <li>Преобразование исходного временного разреза в глубинный</li>
+            <li>Выделение границ раздела грунтовых слоев</li>
+            <li>Поиск локальных объектов (кабелей, труб)</li>
+            <li>Экспорт результатов обработки в файлы формата PNG, программы AutoCAD, Excel, ГИС-системы</li>
+            <li>Пакетная обработка радарограмм</li>
+            <li>Работа с GPS-траекторией</li>
+            <li>Трёхмерный анализ радарограмм (построение амплитудных карт)</li>
+            <li>Численное моделирование радарограмм</li>
+            <li>Построение годографов, расчет грунтовой модели в точке</li>
+          </ul>
+      </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>
